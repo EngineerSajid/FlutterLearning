@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_first_project/Rabbil_Learn.dart';
 import 'package:my_first_project/lesson_6.dart';
 
 import 'home_page.dart';
@@ -15,7 +16,7 @@ class ExplorerMotvationApplication extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(primarySwatch: Colors.green),
       darkTheme: ThemeData(primarySwatch: Colors.blue),
-      home: LessonSix(),
+      home: HomeActivity(),
       debugShowCheckedModeBanner: false,
     );
   }
